@@ -1,0 +1,79 @@
+.Location{
+     
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #0D28A6;
+    width: 1168px;
+    height: 326px;
+    /* margin : auto; */
+    border-radius: 13px;
+    
+}
+
+/* .Location{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY (-50%);
+    transform: translate(-50%);
+    background-color: blue;
+} */
+
+
+.Location h1{
+    /* position: absolute; */
+    /* display: flex;
+    justify-content: center; */
+/* width: 613px;
+height: 54px;
+left: 406px;
+top: 2142px; */
+padding-top: 64px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+/* identical to box height, or 54px */
+
+text-align: center;
+
+/* Neutral/01 */
+
+color: #FFFFFF;
+
+
+}
+ .Location P{
+    /* width: 468px; */
+padding-top: 20px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+position: relative;
+
+text-align: center;
+
+/* Neutral/01 */
+
+color: #FFFFFF;
+
+ }
+ .butlocation{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+padding-top: 80px;
+
+/* position: absolute; */
+/* width: 140px;
+height: 36px;
+left: 650px;
+top: 2304px; */
+ }

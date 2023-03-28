@@ -1,0 +1,28 @@
+.styCard {
+    width: 268px;
+    height: 196px;
+    margin: 16px;
+    border-radius: 8px;
+}
+.card-body h4{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.card-body p{
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 700;
+    padding-left: 16px;
+    /* padding-top: 16px; */
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+.card-body img{
+    padding-left: 16px;
+}

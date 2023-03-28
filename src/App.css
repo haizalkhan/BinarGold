@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.row-whyus{
+  display: flex;
+  justify-content: center;
+  /* width: max-content; */
+  /* flex-direction: row; */
+}
+
+.row-faq{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 160px;
+}
+
+.landingpage{
+  padding-left: 136px;
+  padding-right: 136px;
+}

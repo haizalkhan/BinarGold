@@ -1,0 +1,67 @@
+.hero-section{
+    height: 500px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 60px;
+    border-style: dotted;
+    border-color: blue;
+    border: 3px;
+    background-color: #F1F3FF;
+}
+.content{
+    height: 500px;
+    width: 1500px;
+}
+
+.col-hero-kiri h1{
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+padding-top: 140px;
+padding-left: 130px;
+ }
+ .col-hero-kiri p {
+    padding-left: 130px;
+    width: 468px;
+    padding-top: 16px;
+height: 60px;
+left: 136px;
+top: 301px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+ }
+ 
+ .col-hero-kanan{
+    padding-top: 100px;
+    width: 704px;
+height: 407px;
+left: 1440px;
+top: 97px;
+ }
+ 
+
+  .row-hero{
+    display: flex;
+    background-color: #F1F3FF;
+ }
+
+.col-hero-kiri{
+   padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 87px;
+}
+.but{
+   padding-top: 24px;
+   padding-left: 130px;
+   box-sizing: border-box;
+}

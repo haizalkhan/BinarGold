@@ -1,0 +1,26 @@
+.text-whyus{
+    padding-left: 100px;
+}
+.text-whyus h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    padding-top: 160px;
+}
+.text-whyus h6 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    }
+.container-card{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+}

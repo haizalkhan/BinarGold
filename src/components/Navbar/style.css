@@ -1,0 +1,16 @@
+.custom-navbar-collapse{
+    flex-grow: unset;
+    background-color:#F1F3FF ;
+}
+
+.custom-brand{
+            background-color: #0D28A6;
+            ;
+            border: none;
+            width: 100px;
+            height: 34px;
+
+        }
+.bg-nav{
+    background-color: #F1F3FF;
+}

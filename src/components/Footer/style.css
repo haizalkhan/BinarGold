@@ -1,0 +1,72 @@
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    
+}
+
+.row-footer1{
+    width: 268px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+}
+
+.row-footer2{
+    width: 79px;
+height: 20px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+}
+
+.row-footer3{
+    width: 268px;
+height: 20px;
+left: 519px;
+top: 0px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+}
+
+.sosmed{
+    display: flex;
+    justify-content: space-between;
+
+}
+.icon{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.row-footer4{
+    width: 268px;
+height: 20px;
+left: 873px;
+top: 0px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+}
+
+.rectangle{
+    width: 100px;
+height: 34px;
+background-color:#0D28A6 ;
+}

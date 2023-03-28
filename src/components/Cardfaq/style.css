@@ -1,0 +1,40 @@
+.card-body1{
+    box-sizing: border-box;
+width: 668px;
+/* height: 56px; */
+/* left: 0px;
+top: 0px; */
+/* padding-right: 136px; */
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+padding-left: 10px;
+background: #FFFFFF;
+border: 1px solid #D4D4D4;
+border-radius: 4px;
+justify-content: space-between;
+display: flex;
+}
+
+
+.col-faq-kanan{
+    padding-bottom: 10px;
+}
+.card-text{
+    /* width: 227px; */
+/* height: 20px;
+left: 24px;
+top: 306px; */
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+}
+.items{
+    width: 24px;
+height: 24px;
+/* left: 620px;
+top: 16px; */
+}
