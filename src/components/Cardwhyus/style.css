@@ -15,13 +15,13 @@
 }
 
 .card-body p{
-    font-size: 14px;
+    font-size: 13px;
     font-family: Arial;
     font-weight: 700;
     padding-left: 16px;
     /* padding-top: 16px; */
     padding-right: 16px;
-    padding-bottom: 16px;
+    padding-bottom: 20px;
 }
 .card-body img{
     padding-left: 16px;

@@ -1,8 +1,23 @@
 .row-footer{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     padding-top: 100px;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 86px;
+
+    position: absolute;
+    width: 1440px;
+    height: 128px;
+    padding-top: 100px;
+    padding-left: 136px;
+    padding-right: 136px;
+    padding-bottom: 150px;
+  
+        
 }
 
 .row-footer1{

@@ -1,32 +1,29 @@
-import { useState } from "react";
+import "./style.css"
 
+const TextField = ({labelValue, value, onChange}) => {
 
-const TextField = ({LabelName}) => {
-    const[value, setValue] = useState("");
+  const handleOnChange = (e) => {
+    const val = e.target.value;
+    onChange(val)
+  }
 
-    const handleOnClick = (e) => {
-        const val = e.target.value;
-
-        setValue(val);
-    };
-
-    return(
-        <div class="form-group">
-            <label for="">{LabelName} </label>
-            <input
-            value={value}
-            onChange= {handleOnClick}
-            type="text"
-            class="form-control"
-            name=""
-            id=""
-            aria-describedby="helpId"
-            placeholder=""
-            />
-            <div>Result</div>
-            <div>{value}</div>
-        </div>
-    )
-}
+  return (
+    <div class="form-group">
+      <label for="">{labelValue}</label>
+      <input
+      style={{marginBottom: '14px'}}
+        value={value}
+        onChange={handleOnChange}
+        type="text"
+        class="form-control"
+        name=""
+        id=""
+        aria-describedby="helpId"
+        placeholder=""
+      />
+    </div>
+  );
+};
 
 export default TextField;
+  

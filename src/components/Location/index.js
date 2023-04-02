@@ -1,6 +1,12 @@
 import "./style.css"
+import { useHistory } from "react-router-dom"
 
 const Location=() => {
+    const{push} = useHistory()
+    const handleButton = () => {
+        push(`/search-page`)
+      }
+
     return(
         <>
         <div class="Location" >
@@ -9,7 +15,9 @@ const Location=() => {
                                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                
                                     <div class="butlocation">
-                                    <button type="button" class="btn btn-success btn-sm">Mulai Sewa Mobil</button>
+                                    <button type="button" class="btn btn-success btn-sm" onClick={()=> handleButton()}>
+                                    Mulai Sewa Mobil
+                                        </button>
                                      </div>
                                                   
                  </div>
