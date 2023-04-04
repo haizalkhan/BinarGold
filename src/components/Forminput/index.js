@@ -42,12 +42,13 @@ const FormInput = () => {
   };
 
   const handlePilihMobil = (param) => {
+    console.log("tap");
     push(`/search-page/${param}`);
   };
 
   return (
-    <div class="row-search-bar">
-      <div style={{ margin: "32px" }}>
+    <div class="search">
+      <div className="search-bar" style={{ margin: "32px" }}>
         <TextField
           labelValue={"Nama Mobil"}
           value={valueNamaMobil}
@@ -78,23 +79,23 @@ const FormInput = () => {
           type="button"
           name=""
           id=""
-          className="btn btn-success btn-lg btn-block"
-        >
+          className="btn btn-success btn-lg "
+          >
           {loading ? (
             <>
               <Spinner size="sm">Loading...</Spinner>
               <span> Loading</span>
             </>
           ) : (
-            <>Cari Mobil</>
-          )}
+            <p>Cari Mobil</p>
+            )}
         </Button>
 
-        <br />
-        <hr />
+            </div>
+        {/* <br />
+        <hr /> */}
 
         <div></div>
-        <h3>Result</h3>
 
         <div
           style={{
@@ -106,7 +107,7 @@ const FormInput = () => {
         >
           {listCars.map(({ image, name, price, id }) => {
             return (
-              <div class="card">
+              <div class="card cardsearch">
                 <div style={{ width: "333px", height: "478px" }}>
                   <img
                     class="card-img-top"
@@ -115,7 +116,7 @@ const FormInput = () => {
                     src={image}
                     alt=""
                   />
-                  <div class="card-body">
+                  <div class="card-detail">
                     <h4 class="card-title">{name}</h4>
                     <p class="card-text">Rp.{price}/hari</p>
                     <p class="card-text1">
@@ -125,6 +126,20 @@ const FormInput = () => {
                     </p>
                     <Button
                       onClick={() => handlePilihMobil(id)}
+                      className="choose-btn btn-success"
+                      style={{
+                        width: "100px",
+                        backgroundColor: "#5CB85F",
+                        border: "none",
+                        borderRadius: "2px",
+                      }}
+                    >
+                      Pilih Mobil
+                    </Button>
+                    {/* <Button onClick={() => handlePilihMobil(id)}>hahaha</Button> */}
+                    {/* <Button
+                    active
+                      onClick={() => handlePilihMobil(id)}
                       style={{
                         margin: "1em",
                         backgroundColor: "#5CB85F",
@@ -133,7 +148,7 @@ const FormInput = () => {
                       }}
                     >
                       Pilih Mobil
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </div>
@@ -141,7 +156,6 @@ const FormInput = () => {
           })}
         </div>
       </div>
-    </div>
   );
 };
 

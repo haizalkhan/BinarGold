@@ -1,17 +1,102 @@
-/* .row-search-bar{
-    width: 1047px;
-    height: 106px;
-    left: 196px;
-    top: 458px;
-    
-   
-    background: #FFFFFF;
-   
-    
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-} */
-.card-body{
+.cardsearch{
+     max-height: 478px;
+}
+/* .card-body{
  height: 170px;
  width: 285px;
+} */
+
+.card-detail{
+    width: 333px;
+height: 478px;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+.card-title{
+    /* width: 285px;
+height: 20px; */
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Neutral/01 */
+
+color: #000000;
+}
+.card-text{
+    width: 285px;
+/* height: 20px; */
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Neutral/01 */
+
+color: #000000;
+}
+
+.card-text1{
+    width: 200px;
+/* height: 60px; */
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+/* Neutral/01 */
+
+color: #000000;
+
+}
+
+
+.search-bar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1047px;
+/* height: 106px; */
+
+/* Neutral/01
+
+FFFFFF
+*/
+background: #FFFFFF;
+/* Shadow/High */
+
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+border-radius: 8px;
+}
+.btn{
+   
+width: 92px;
+/* height: 36px; */
+margin: auto;
+
+}
+
+.btn p{
+    width: 68px;
+/* height: 20px; */
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+/* line-height: 20px; */
 }

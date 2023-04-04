@@ -8,10 +8,10 @@ const TextField = ({labelValue, value, onChange}) => {
   }
 
   return (
-    <div class="form-group">
+    <div class="form-group" >
       <label for="">{labelValue}</label>
       <input
-      style={{marginBottom: '14px'}}
+      style={{marginBottom: '14px',}}
         value={value}
         onChange={handleOnChange}
         type="text"

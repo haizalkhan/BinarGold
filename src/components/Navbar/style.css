@@ -68,7 +68,7 @@ nav {
     opacity: 0;
   }
   
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 480px) {
     .nav-custom {
       display: flex;
       flex-direction: row-reverse;

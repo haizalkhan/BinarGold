@@ -1,61 +1,119 @@
+.col-hero-kiri h1 {
 
-.content{
-    height: 500px;
-    width: 1500px;
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 150%;
+   padding-top: 140px;
+   padding-left: 130px;
 }
 
-.col-hero-kiri h1{
+.col-hero-kiri p {
+   padding-left: 130px;
+   /* width: 468px; */
+   padding-top: 16px;
+   height: 60px;
+   left: 136px;
+   top: 301px;
 
-font-family: 'Arial';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 150%;
-padding-top: 140px;
-padding-left: 130px;
- }
- .col-hero-kiri p {
-    padding-left: 130px;
-    width: 468px;
-    padding-top: 16px;
-height: 60px;
-left: 136px;
-top: 301px;
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 20px;
+}
 
-font-family: 'Arial';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 20px;
- }
- 
- .col-hero-kanan{
-    padding-top: 100px;
-    width: 704px;
-height: 407px;
-left: 1440px;
-top: 97px;
- }
- 
+.col-hero-kanan {
+   padding-top: 100px;
+   /* width: 704px; */
+   height: 407px;
+   left: 1440px;
+   top: 97px;
+}
 
-  .row-hero{
-    display: flex;
-    background-color: #F1F3FF;
- }
 
-.col-hero-kiri{
+.row-hero {
+   display: flex;
+   justify-content: space-between;
+   background-color: #F1F3FF;
+   height: 100px;
+}
+
+.col-hero-kiri {
    padding-top: 50px;
    padding-right: 30px;
    padding-bottom: 87px;
 }
-.but{
+
+.but {
    padding-top: 24px;
    padding-left: 130px;
    box-sizing: border-box;
 }
+.mobil-hero{
+   width: 500px;
+   height: 300px;
+}
 
-@media screen and (max-width: 576px) {
+/* } */
 
-   .row-hero{}
-   
+@media screen and (max-width: 480px) {
+
+   .row-hero{
+      flex-direction: column;
+      justify-content: start;
+      background-color: aqua;
+      width: 100%;
+      height: 700px;
+   }
+
+   .col-hero-kiri {
+      padding-bottom: 10px;
+      width: 100%;
+      height: 500px;
+
+   }
+
+   .col-hero-kiri h1 {
+      line-height: 150%;
+      padding-left: 0px;
+      width: 328px;
+      height: 216px;
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 150%;
+   }
+
+   .col-hero-kiri p {
+      padding-left: 10px;
+      padding-top: 16px;
+      width: 328px;
+      height: 60px;
+
+      font-family: 'Arial';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+   }
+
+   .but{
+      padding-left: 16px;
+      
+   }
+   .col-hero-kanan {
+      padding-top: 10px;
+      width:704px
+      /* width: 704px; */
+      /* height: 407px;
+      left: 1440px;
+      top: 97px; */
+   }
+   .mobil-hero{
+      width: 344px;
+      height: 199px;
+   }
 }

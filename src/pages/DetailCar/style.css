@@ -1,0 +1,26 @@
+.card-img-top{
+    width: 270px;
+height: 160px;
+}
+
+.details{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.heading{
+    font-weight: bold;
+}
+
+.card{
+    height: 430px;
+    width: 400px;
+}
+
+.bar{
+    position: absolute;
+    padding-top: 180px;
+}

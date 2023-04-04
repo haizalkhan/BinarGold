@@ -30,7 +30,7 @@ const Herosection= ()=>{
                 
                  <div class="col-hero-kanan">
         
-                    <img src="assets/car.png" height="400" width="704"/>
+                    <img className="mobil-hero"src="assets/car.png"/>
                 </div>
 
                 </div>

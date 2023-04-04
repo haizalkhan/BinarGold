@@ -39,10 +39,7 @@ const LandingPage = () => {
             reviewer="Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu"
           />
         </div>
-        <Testimonial></Testimonial>
-
-        <div className="row-testi">
-        </div>
+        {/* <Testimonial></Testimonial> */}
         <Location></Location>
         <div class="row-faq">
           <div class="row-faq-kiri">

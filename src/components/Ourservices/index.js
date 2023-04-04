@@ -5,7 +5,7 @@ const Ourservices=() => {
         <>
 <section class="row container-services" id="our-service">
     <div class="col image-services">
-        <img src="assets/img_service.png" height="366" width="374"/>
+        <img src="assets/img_service.png" />
     </div>
     <div class="col text-our-service">
         <div class="container-our-service">
